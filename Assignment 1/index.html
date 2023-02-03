@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Basics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="main">
+      <div id="container">
+        <div id="content" role="main">
+          <!-- TODO: Content goes here -->
+          <img src="logo.png" alt="Company Logo" width="200" height="50">
+          <h1 id="Headers">HTML Elements</h1>
+          <hr>
+          <nav>
+            <a href="#Home">Home</a>
+            <a href="#Headers">Headers</a>
+            <a href="#Table">Table</a>
+            <a href="#List">List</a>
+            <a href="#Text-formats">Text formats</a>
+            <a href="#Blockquotes">Blockquotes</a>
+          </nav>
+          <hr>
+          <p>
+            Pay attention to h1 tag inside section element. Font-size for h1
+            is the same as font-size for h2, because we have to use only one
+            h1 on the page, and it is commonly used inside header
+          </p>
+
+          <h2>Header 2</h2>
+          <h3>Header 3</h3>
+          <h4>Header 4</h4>
+          <h5>Header 5</h5>
+          <h6>Header 6</h6>
+
+          <p>
+            Lorem ipsum dolor sit amet, <a href="">test link</a> adipiscing
+            elit. <strong>This is strong.</strong> Nullam dignissim convallis
+            est. Quisque aliquam. <i>This is</i> <em>emphasized.</em> Donec
+            faucibus. Nunc iaculis suscipit dui. 5<sup>3</sup> = 125. Water is
+            H<sub>2</sub>O Nam sit amet sem. Aliquam libero nisi, imperdiet
+            at, tincidunt nec, gravida vehicula, nisl. The New York Times
+            (That’s a citation).<u>Underline</u>. Maecenas ornare tortor.
+            Donec sed tellus eget sapien fringilla nonummy. Mauris a ante.
+            Suspendisse quam sem, consequat at, commodo vitae, feugiat in,
+            nunc. Morbi imperdiet augue quis tellus.
+          </p>
+          <p>
+            <abbr title="Hyper-Text-Markup-Language">HTML</abbr> and <abbr title="Cascading stylesheet">CSS</abbr> are
+            our tools. Mauris a ante. Suspendisse quam sem,
+            consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet
+            augue quis tellus. Praesent mattis, massa quis luctus fermentum,
+            turpis mi volutpat justo, eu volutpat enim diam eget metus. To
+            copy a file type COPY <i>filename.</i> <s>Dinner`s at 5:00.</s>
+            <span style="background-color: rgb(243, 243, 62)">Let’s make that 7</span>. This <del>text</del> has
+            been struck.
+          </p>
+          <hr>
+
+          <h1 id="Table">Table</h1>
+
+          <table>
+            <tr>
+              <th>Header</th>
+              <th>Header</th>
+              <th>Header</th>
+            </tr>
+            <tr>
+              <td>Lviv</td>
+              <td>Kyiv</td>
+              <td>Kharkiv</td>
+            </tr>
+            <tr>
+              <td>Odessa</td>
+              <td>Zhytomyr</td>
+              <td>Dnipropetrovsk</td>
+            </tr>
+            <tr>
+              <td>Sumy</td>
+              <td>Chernivtsi</td>
+              <td>Lutsk</td>
+            </tr>
+          </table>
+
+
+          <h1 id="List">Unordered List</h1>
+          <ul>
+            <li>List item 1</li>
+            <li>List item 2
+              <ul>
+                <li>Some nested list item 1</li>
+              </ul>
+            </li>
+            <li>List item 3</li>
+          </ul>
+
+
+          <h1>Ordered List</h1>
+          <ol>
+            <li>List item 1</li>
+            <li>List item 2 <ol>
+                <li>Some nested list item 1</li>
+              </ol>
+            </li>
+            <li>List item 3</li>
+          </ol>
+
+
+
+
+          <h3>Definition List</h3>
+          <dl>
+            <dt>defines terms 1</dt>
+            <dd>description 1</dd>
+            <dt>defines terms 2</dt>
+            <dd>description</dd>
+          </dl>
+          <span>Details</span>
+          <select>
+            <option value="0">HTML</option>
+            <option value="1">CSS</option>
+            <option value="2">JS</option>
+          </select>
+
+          <hr>
+
+          <h1 id="Text-formats">Text formats</h1>
+          <h3>Article Text</h3>
+          <h2>&emsp;Article title</h2>
+
+          <p>&emsp;&nbsp;&nbsp;Article description</p>
+
+          <h3>Preformatted Text</h3>
+
+          <pre>
+Text
+  in a pre element
+    is displayed in a fixed-width
+font, and it preserves
+both           spaces and
+    line breaks
+         </pre>
+          <h3>Code</h3>
+          <pre>
+
+.wrapper {
+display: flex;
+  vertical-align: middle;
+  justify-content: center;
+ }</pre>
+
+          <h2 id="Blockquotes">Blockquotes</h2>
+          <p>
+            Let’s keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.
+          </p>
+          <blockquote>"If you go back a few hundred years, what we take for granted today would seem like magic-being
+            able to talk to people over long distances, to transmit images, flying, accessing vast amounts of data like
+            an oracle. These are all things that would have been considered magic a few hundred years ago."
+
+
+            <p><a href=""><i> Elon Musk</i></a></p>
+          </blockquote>
+          <hr>
+
+          <form>
+            <label for="name">First name:</label>
+            <input type="text" id="name" name="name">
+            <br>
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <textarea name="text" id="text" cols="30" rows="10"></textarea><br>
+
+            <button type="submit">submit</button>
+
+
+          </form>
+
+
+
+          <footer>
+            © Copyright Epam Systems
+
+          </footer>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
