@@ -1,0 +1,147 @@
+@media print {
+  #about,
+  #ideas,
+  #contact,
+  .tm-sidebar,
+  .blocks,
+  .heading,
+  .img-contact-us,
+  section::before {
+    display: none;
+  }
+
+  .container {
+    width: 80%;
+  }
+
+  .container .tm-section-title {
+    color: blue;
+  }
+
+  .container img[src="img/epam-mexico.jpg"] {
+    width: 1000px;
+    height: 250px;
+  }
+
+  p {
+    text-indent: 30px;
+  }
+
+  p::first-letter {
+    color: darkgrey;
+    font-size: 30px;
+  }
+
+  h2 + p {
+    font-style: italic;
+  }
+
+  .tm-banner {
+    padding: 30px;
+    border: none;
+  }
+}
+
+.flex-2-col:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tm-box-bg-title:hover {
+  color: white;
+  font-weight: bold;
+  background-color: #87cefa;
+}
+
+p::first-letter {
+  color: #87cefa;
+  font-size: 30px;
+}
+
+.tm-content-box,
+.tm-main-nav {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.tm-banner {
+  padding: 0;
+  border: #f5f5f5 solid 30px;
+}
+
+.tm-content-box.flex-2-col h2 {
+  color: gainsboro;
+}
+
+h2 + p {
+  font-style: italic;
+}
+
+p:not(.tm-banner-text) {
+  line-height: 200%;
+  text-indent: 30px;
+}
+
+ol li a {
+  color: black;
+}
+
+ol li a:visited {
+  color: black;
+  text-decoration: underline;
+}
+
+ol li a:hover {
+  color: #87cefa;
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+
+ol li .text::after {
+  content: "new";
+  color: red;
+  vertical-align: super;
+}
+
+.blocks .box-work {
+  padding: 10px;
+}
+
+.blocks .box-work p {
+  text-indent: 0;
+}
+
+.box-work p::first-letter {
+  color: black;
+}
+
+.blocks .box-work:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.tm-content-box .mandatory-field::after {
+  content: " *";
+  font-weight: bold;
+  color: red;
+}
+
+.submit-btn {
+  width: 150px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  color: #87cefa;
+  background-color: white;
+  border-radius: 0;
+  border: #87cefa solid 1px;
+}
+
+.submit-btn:hover {
+  color: white;
+  background-color: #87cefa;
+  border: 1px #87cefa;
+}
+
+.tm-nav-item:hover {
+  background-color: grey;
+}
