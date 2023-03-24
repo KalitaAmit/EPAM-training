@@ -189,6 +189,8 @@ function renderItems(arr){
     MainTable.appendChild(fragment);
 }
 
+
+
 let minusOne=-1;
 
 function sortDependOnArrow(el){
