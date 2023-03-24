@@ -1,0 +1,72 @@
+/* START: Task 1 Styles */
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+td {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    background-color: white;
+    cursor: pointer;
+}
+td.green {
+    background-color: green;
+}
+td.yellow {
+    background-color: yellow;
+}
+
+/* END: Task 1 Styles */
+
+/* START: Task 2 Styles */
+.input-wrapper {
+    position: relative;
+    margin: 20px;
+    top: 80px;
+  }
+  
+  #phone-input {
+    border: 1px solid black;
+    padding: 8px;
+    border: 2px solid;
+    width: 60%;
+    margin-left: 15%;
+  }
+  
+  #send-button {
+    position: absolute;
+    top: 0;
+    right: 12%;
+    padding: 8px 10px;
+    border-color: rgb(180, 180, 180);
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  #notification {
+  display: flex;
+    position: absolute;
+    top: -90px;
+    left: 15%;
+    width: 70%;
+    margin: auto;
+    padding:30px 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  #notification.valid {
+    background-color: rgb(2, 148, 2);
+  }
+  
+  #notification.invalid {
+    background-color: rgb(255, 161, 176);
+  }
+/* END: Task 2 Styles */
+
+/* START: Task 3 Styles */
+
+/* END: Task 3 Styles */
