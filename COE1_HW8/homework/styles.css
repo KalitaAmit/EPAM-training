@@ -1,0 +1,59 @@
+/* START: Task 1 Styles */
+
+table,th,td{
+    border: 2px solid black;
+    cursor: pointer;
+}
+td{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+tr{
+    border-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+    border-color: green;
+}
+
+/* END: Task 1 Styles */
+
+
+/* START: Task 2 Styles */
+
+input{
+    width: 250px;
+    font-size: 10px;
+    padding: 8px;
+}
+
+button{
+    padding: 6px 5px ;
+}
+
+
+.para_c{
+   border: 1px solid  1px solid rgb(120, 123, 120);;
+   background-color: green;
+   width: 310px;
+   padding: 5px;
+   color: #eee;
+}
+.para_i{
+    border: 1px solid rgb(120, 123, 120);
+    background-color: red;
+    width: 310px;
+    padding: 5px;
+    color: #eee;
+}
+/* END: Task 2 Styles */
+
